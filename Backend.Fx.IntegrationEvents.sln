@@ -8,9 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Fx.IntegrationEvent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Fx.IntegrationEvents.Feature", "src\Backend.Fx.IntegrationEvents.Feature\Backend.Fx.IntegrationEvents.Feature.csproj", "{DED35433-75AB-471E-8CD1-48D325DB2AF5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E262C353-80F5-4F49-A39B-991943F79876}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Fx.MessageBus.Feature.Tests", "tests\Backend.Fx.IntegrationEvents.Feature.Tests\Backend.Fx.MessageBus.Feature.Tests.csproj", "{79EFF0EC-1AD8-4063-B926-977EA35CD69F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Fx.MessageBus.Feature.Tests", "src\Backend.Fx.IntegrationEvents.Feature.Tests\Backend.Fx.MessageBus.Feature.Tests.csproj", "{E4A78933-99EC-4474-86CC-583685FE1D07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,14 +26,14 @@ Global
 		{DED35433-75AB-471E-8CD1-48D325DB2AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DED35433-75AB-471E-8CD1-48D325DB2AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DED35433-75AB-471E-8CD1-48D325DB2AF5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79EFF0EC-1AD8-4063-B926-977EA35CD69F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79EFF0EC-1AD8-4063-B926-977EA35CD69F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79EFF0EC-1AD8-4063-B926-977EA35CD69F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79EFF0EC-1AD8-4063-B926-977EA35CD69F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A78933-99EC-4474-86CC-583685FE1D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A78933-99EC-4474-86CC-583685FE1D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A78933-99EC-4474-86CC-583685FE1D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A78933-99EC-4474-86CC-583685FE1D07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6CA09CC0-9967-4173-8054-86207F2049D8} = {F9E568AA-8843-412F-9612-F533EA17A573}
 		{DED35433-75AB-471E-8CD1-48D325DB2AF5} = {F9E568AA-8843-412F-9612-F533EA17A573}
-		{79EFF0EC-1AD8-4063-B926-977EA35CD69F} = {E262C353-80F5-4F49-A39B-991943F79876}
+		{E4A78933-99EC-4474-86CC-583685FE1D07} = {F9E568AA-8843-412F-9612-F533EA17A573}
 	EndGlobalSection
 EndGlobal
