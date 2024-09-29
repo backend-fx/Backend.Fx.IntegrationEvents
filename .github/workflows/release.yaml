@@ -1,4 +1,4 @@
-name: continuous
+name: release
 
 on:
   push:
