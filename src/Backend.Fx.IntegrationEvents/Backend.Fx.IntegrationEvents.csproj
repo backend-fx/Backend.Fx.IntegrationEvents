@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Backend.Fx" Version="8.0.15" />
+      <PackageReference Include="Backend.Fx" Version="8.1.0" />
     </ItemGroup>
 
 </Project>
