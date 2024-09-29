@@ -2,25 +2,13 @@ name: continuous
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - "src/**"
-
-  pull_request:
-    branches:
-      - main
-    paths:
-      - "src/**"
-  
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+    tags: 
+      - "v*.*.*"
 
 jobs:
   nuke-build:
     name: nuke-build
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -29,4 +17,7 @@ jobs:
           fetch-depth: 0
 
       - name: nuke build
-        run: ./build.sh test
+        run: ./build.sh publish
+        env:
+            MYGET_APIKEY: ${{ secrets.MYGET_APIKEY }}
+            NUGET_APIKEY: ${{ secrets.NUGET_APIKEY }}
