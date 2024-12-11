@@ -2,13 +2,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using Backend.Fx.Execution;
 using Backend.Fx.Execution.SimpleInjector;
-using Backend.Fx.IntegrationEvents;
-using Backend.Fx.IntegrationEvents.Feature;
 using Backend.Fx.Logging;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 
-namespace Backend.Fx.MessageBus.Feature.Tests;
+namespace Backend.Fx.IntegrationEvents.Feature.Tests;
 
 public class TheIntegrationEventFeature
 {
@@ -19,6 +17,8 @@ public class TheIntegrationEventFeature
         app.EnableFeature(new IntegrationEventsFeature());
         await app.BootAsync();
 
+        Assert.Equal(0, Handler.LastNumber);
+        
         await app.Invoker.InvokeAsync((sp, _) =>
         {
             var publisher = sp.GetRequiredService<IIntegrationEventPublisher>();

@@ -1,10 +1,9 @@
 using System;
-using Backend.Fx.IntegrationEvents;
 using Backend.Fx.IntegrationEvents.Feature.MessageBus;
 using NodaTime;
 using Xunit;
 
-namespace Backend.Fx.MessageBus.Feature.Tests;
+namespace Backend.Fx.IntegrationEvents.Feature.Tests;
 
 public class TheJsonIntegrationEventSerializer
 {

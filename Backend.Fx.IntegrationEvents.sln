@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Fx.IntegrationEvent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Fx.IntegrationEvents.Feature", "src\Backend.Fx.IntegrationEvents.Feature\Backend.Fx.IntegrationEvents.Feature.csproj", "{DED35433-75AB-471E-8CD1-48D325DB2AF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Fx.MessageBus.Feature.Tests", "src\Backend.Fx.IntegrationEvents.Feature.Tests\Backend.Fx.MessageBus.Feature.Tests.csproj", "{E4A78933-99EC-4474-86CC-583685FE1D07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Fx.IntegrationEvents.Feature.Tests", "src\Backend.Fx.IntegrationEvents.Feature.Tests\Backend.Fx.IntegrationEvents.Feature.Tests.csproj", "{E4A78933-99EC-4474-86CC-583685FE1D07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
